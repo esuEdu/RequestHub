@@ -1,0 +1,80 @@
+######################################
+# OS
+######################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+######################################
+# IDE / Editors
+######################################
+.vscode/
+.idea/
+*.iml
+
+######################################
+# Logs
+######################################
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+######################################
+# Environment Files
+######################################
+.env
+.env.*
+!.env.example
+
+######################################
+# Node / Frontend (React)
+######################################
+node_modules/
+dist/
+build/
+coverage/
+
+######################################
+# Wails
+######################################
+wailsjs/
+frontend/dist/
+frontend/node_modules/
+
+######################################
+# Go
+######################################
+bin/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+coverage.out
+
+######################################
+# Terraform
+######################################
+**/.terraform/
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+######################################
+# Terraform Plan Files
+######################################
+*.tfplan
+
+######################################
+# AWS Credentials (extra safety)
+######################################
+.aws/
+credentials
